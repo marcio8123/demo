@@ -186,7 +186,7 @@ objects:
               stage('Promote to STAGE?') {
                 steps {
                   timeout(time:15, unit:'MINUTES') {
-                      input message: "Promote to STAGE?", ok: "Promote"
+                      input message: "APROVACAO DO COORDENADOR MAGNO?", ok: "Promote"
                   }
 
                   script {
