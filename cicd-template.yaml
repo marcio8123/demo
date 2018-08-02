@@ -183,7 +183,7 @@ objects:
                   }
                 }
               }
-              stage('Promote to STAGE?') {
+              stage('APROVACAO DO COORDENADOR MAGNO?') {
                 steps {
                   timeout(time:15, unit:'MINUTES') {
                       input message: "APROVACAO DO COORDENADOR MAGNO?", ok: "Promote"
